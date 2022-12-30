@@ -3,6 +3,7 @@
 // Save the order details on clicking the submit button
 var orderList = [];
 function  saveData(){
+
 let order = {
     "categoryname":document.getElementById("in1").value,
     "itemName":document.getElementById("in2").value,
